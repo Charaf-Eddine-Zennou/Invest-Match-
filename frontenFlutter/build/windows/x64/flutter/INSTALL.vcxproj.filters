@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DELL\OneDrive\Bureau\master\SelfL\projetInvest\frontenFlutter\build\windows\x64\CMakeFiles\b9242e4eda284f8d11348820f8113a27\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F2F098F7-4D52-3E92-9F74-353E2214D1EE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

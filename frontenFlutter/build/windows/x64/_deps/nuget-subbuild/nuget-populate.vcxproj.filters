@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DELL\OneDrive\Bureau\master\SelfL\projetInvest\frontenFlutter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\218e952a4f834e45213a3fcb90f986db\nuget-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\OneDrive\Bureau\master\SelfL\projetInvest\frontenFlutter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\218e952a4f834e45213a3fcb90f986db\nuget-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\OneDrive\Bureau\master\SelfL\projetInvest\frontenFlutter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\218e952a4f834e45213a3fcb90f986db\nuget-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\OneDrive\Bureau\master\SelfL\projetInvest\frontenFlutter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\218e952a4f834e45213a3fcb90f986db\nuget-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\OneDrive\Bureau\master\SelfL\projetInvest\frontenFlutter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\218e952a4f834e45213a3fcb90f986db\nuget-populate-copyfile.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\OneDrive\Bureau\master\SelfL\projetInvest\frontenFlutter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\218e952a4f834e45213a3fcb90f986db\nuget-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\OneDrive\Bureau\master\SelfL\projetInvest\frontenFlutter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\218e952a4f834e45213a3fcb90f986db\nuget-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\OneDrive\Bureau\master\SelfL\projetInvest\frontenFlutter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\218e952a4f834e45213a3fcb90f986db\nuget-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\OneDrive\Bureau\master\SelfL\projetInvest\frontenFlutter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\218e952a4f834e45213a3fcb90f986db\nuget-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\OneDrive\Bureau\master\SelfL\projetInvest\frontenFlutter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\9a7e1970ab59ebc45e3b2c0db640810e\nuget-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\OneDrive\Bureau\master\SelfL\projetInvest\frontenFlutter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\4f903fc71b275a6072ec496b13a6d157\nuget-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\DELL\OneDrive\Bureau\master\SelfL\projetInvest\frontenFlutter\build\windows\x64\_deps\nuget-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\DELL\OneDrive\Bureau\master\SelfL\projetInvest\frontenFlutter\build\windows\x64\_deps\nuget-subbuild\CMakeFiles\nuget-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C511EC1E-9E3A-34D8-823C-A215075AB8DE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
