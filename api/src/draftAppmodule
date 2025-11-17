@@ -1,0 +1,9 @@
+/*TypeOrmModule.forRoot({
+      type: 'mysql',
+      database: 'lehgin',
+      username: 'root',
+      password: '',
+      entities: [__dirname + '/**///*.entity{.ts,.js}'],
+      //synchronize: true,
+  //  }),
+    //TypeOrmModule.forFeature([User]),

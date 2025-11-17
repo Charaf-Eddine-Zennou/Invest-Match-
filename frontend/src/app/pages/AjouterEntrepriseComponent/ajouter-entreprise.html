@@ -1,0 +1,39 @@
+<button type="button" (click)="retour()">Retour</button>
+<form (ngSubmit)="ajouterEntreprise()" #form="ngForm">
+  <label for="name">Nom de l'entreprise:</label>
+  <input type="text" id="name" name="name" [(ngModel)]="entreprise.name" required>
+
+  <label for="secteur">Secteur:</label>
+  <input type="text" id="secteur" name="secteur" [(ngModel)]="entreprise.secteur" required>
+
+  <label for="montant">Montant:</label>
+  <input type="number" id="montant" name="montant" [(ngModel)]="entreprise.montant" required>
+
+  <label for="taille">Taille:</label>
+  <input type="number" id="taille" name="taille" [(ngModel)]="entreprise.taille" required>
+
+  <label for="seed">Seed:</label>
+  <input type="text" id="seed" name="seed" [(ngModel)]="entreprise.seed" required>
+
+  <label for="modele_eco">Modèle Économique:</label>
+  <input type="text" id="modele_eco" name="modele_eco" [(ngModel)]="entreprise.modele_eco" required>
+
+  <label for="valo_pre">Valo Pre:</label>
+  <input type="number" step="0.01" id="valo_pre" name="valo_pre" [(ngModel)]="entreprise.valo_pre" required>
+
+  <label for="valo_post">Valo Post:</label>
+  <input type="number" step="0.01" id="valo_post" name="valo_post" [(ngModel)]="entreprise.valo_post" required>
+
+  <label for="company_email">Email:</label>
+ <input type="email" id="company_email" name="company_email" [(ngModel)]="entreprise.company_email" required>
+
+ <label for="ville">Ville:</label>
+<input type="text" id="ville" name="ville" [(ngModel)]="entreprise.ville" (blur)="onVilleBlur()" required>
+
+<label for="video">Vidéo de présentation:</label>
+<input type="file" id="video" (change)="onFileSelected($event)" accept="video/*">
+
+  <button type="submit">Soumettre</button>
+</form>
+
+

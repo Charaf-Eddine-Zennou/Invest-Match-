@@ -1,0 +1,76 @@
+:host {
+  display: flex;
+  height: 100vh;
+  background-color: #ffe600; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+form {
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+}
+
+label {
+  font-weight: 600;
+  color: #1a00b8;
+  margin-bottom: 6px;
+  display: block;
+  font-size: 1rem;
+}
+
+input[type="password"],
+input[type="email"] {
+  padding: 12px 15px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 2px solid #1a00b8;
+  outline: none;
+  transition: border-color 0.3s ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="password"]:focus,
+input[type="email"]:focus {
+  border-color: #140091;
+  box-shadow: 0 0 8px rgba(26, 0, 184, 0.5);
+}
+
+button[type="submit"] {
+  background-color: #1a00b8;
+  color: white;
+  padding: 15px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(26, 0, 184, 0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #140091;
+  box-shadow: 0 6px 12px rgba(20, 0, 145, 0.6);
+}
+
+p[ng-reflect-ng-if] {
+  margin-top: 10px;
+  color: red;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-align: center;
+}

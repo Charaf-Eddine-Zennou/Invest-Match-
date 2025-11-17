@@ -1,0 +1,14 @@
+### Envoyer un message de abd88bd6-353e-4b58-8c3f-672b2786d48b vers bdaf5279-fc32-450b-8008-7a754563740a
+POST http://localhost:3000/messages
+Content-Type: application/json
+
+{
+  "content": "Salut, comment ça va ?",
+  "senderId": "abd88bd6-353e-4b58-8c3f-672b2786d48b",
+  "receiverId": "bdaf5279-fc32-450b-8008-7a754563740a"
+}
+
+###
+
+### Récupérer tous les messages entre les deux utilisateurs
+GET http://localhost:3000/messages?senderId=abd88bd6-353e-4b58-8c3f-672b2786d48b&receiverId=bdaf5279-fc32-450b-8008-7a754563740a

@@ -1,0 +1,121 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  background-color: #ffe600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+}
+
+.step-progress {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.step {
+  width: 30px;
+  height: 5px;
+  background-color: #d0cfe6;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.step.active {
+  background-color: #1a00b8;
+}
+
+.form-step {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h2 {
+  color: #1a00b8;
+  font-size: 1.3rem;
+  margin-top: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+input,
+select {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f2f2ff;
+  font-size: 1rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #f2f2ff;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: #1a00b8;
+  cursor: pointer;
+}
+
+.next-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #1a00b8;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-step {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.welcome-step .logo,
+.welcome-step .title {
+  width: 120px;
+  margin-bottom: 20px;
+}
